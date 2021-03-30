@@ -7,6 +7,7 @@ namespace helloWorld
         
         static void Main(string[] args)
         {
+            /*
             string name = "Mieszko";
             float age = 1.5f;
 
@@ -23,7 +24,13 @@ namespace helloWorld
 
             Console.WriteLine(sum);
 
+            Console.Write("Wprowadz text:");
+            string userInput = Console.ReadLine();
+            Console.WriteLine("Twoja wiadomość to: {0}", userInput);
+
             Console.Read();
+            */
+
         }
     }
 }
