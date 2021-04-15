@@ -31,6 +31,7 @@ namespace helloWorld
             Console.Read();
             */
 
+            /*
             //this will work. can assing smal values to biger vaules
             int someNum = 459412;
             long myLongNum = someNum;
@@ -51,6 +52,19 @@ namespace helloWorld
 
             //convert type from num to string
             string myString = myDouble.ToString();
+            */
+            string myString1 = "10";
+            string myString2 = "100";
+            string result = myString1 + myString2;
+            //Int32.Parse lub inna metoda zmiany stringa na liczbe
+            int num1 = Int32.Parse(myString1);
+            int num2 = Int32.Parse(myString2);
+            int numResult = num1 + num2;
+
+            Console.WriteLine(result);
+            Console.WriteLine(numResult);
+            Console.Read();
+
         }
     }
 }
